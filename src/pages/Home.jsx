@@ -13,71 +13,75 @@ const products = [
     id: 2,
     title: "Galaxy S23 Ultra",
     price: 1199,
-    image: "https://m.media-amazon.com/images/I/61QG4hK+xFL.jpg",
+    image:
+      "https://avatars.mds.yandex.net/get-mpic/3609127/2a00000190a6867b62e9ad0e2a0f37ca273b/orig",
   },
   {
     id: 3,
     title: "Sony WH-1000XM5",
     price: 399,
-    image: "https://m.media-amazon.com/images/I/61btVtQISjL.jpg",
+    image: "https://cdn1.ozone.ru/s3/multimedia-1-o/c600/6928484388.jpg",
   },
   {
     id: 4,
     title: "MacBook Pro 16 M2",
     price: 2499,
     image:
-      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp16-spacegray-select-202110_GEO_US?wid=1808&hei=1680&fmt=png-alpha&.v=1632788574000",
+      "https://avatars.mds.yandex.net/i?id=835cda6343ab6a833a451acce52caf88_l-5886727-images-thumbs&n=13",
   },
   {
     id: 5,
     title: "Dell XPS 15",
     price: 1799,
     image:
-      "https://i.dell.com/sites/imagecontent/products/PublishingImages/xps-15-9520-laptop/spi/ng/xps-15-9520-laptop-spi-ng-gallery-504x350.jpg",
+      "https://avatars.mds.yandex.net/i?id=acbfbe909262f1b87336794adeabf125_l-5255540-images-thumbs&n=13",
   },
   {
     id: 6,
     title: "Logitech MX Master 3S",
     price: 99,
-    image: "https://m.media-amazon.com/images/I/61bK6PMOC3L.jpg",
+    image: "https://img.mvideo.ru/Pdb/small_pic/480/50175521b3.jpg",
   },
   {
     id: 7,
     title: "Apple Watch Series 8",
     price: 399,
     image:
-      "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MNU93_VW_34FR+watch-44-alum-midnight-cell-8s_VW_34FR_WF_CO_GEO_US?wid=2000&hei=2000&fmt=jpeg&qlt=95&.v=1660771803186",
+      "https://www.knsneva.ru/linkpics/apple-watch-series-8-41-mm-mnu83ll-a_kod_824304-small.jpg",
   },
   {
     id: 8,
     title: "Samsung Galaxy Buds 2",
     price: 149,
     image:
-      "https://images.samsung.com/is/image/samsung/p6pim/levant/galaxy-buds2/gallery/levant-galaxy-buds2-r177-sm-r177nzkamea-481295128?$650_519_PNG$",
+      "https://avatars.mds.yandex.net/i?id=980fbd463d9a17e304d559754145dd31_l-6377202-images-thumbs&n=13",
   },
   {
     id: 9,
     title: "Kindle Paperwhite",
     price: 139,
-    image: "https://m.media-amazon.com/images/I/61xA4fGkXlL.jpg",
+    image:
+      "https://m.media-amazon.com/images/G/01/kindle/journeys/5xlDnKG94P0ryVnD8MqFmnIhMKBXE2F2BxyzUQHa63Hhs3D/YTY2NDRkMWQt._CB600254662_.jpg",
   },
   {
     id: 10,
     title: "GoPro HERO11",
     price: 499,
-    image: "https://m.media-amazon.com/images/I/71JNm1bQfDL.jpg",
+    image: "https://static.baza.farpost.ru/v/1676421885492_bulletin",
   },
   {
     id: 11,
     title: "Canon EOS R5",
     price: 3899,
-    image: "https://m.media-amazon.com/images/I/81U6L0aEMzL.jpg",
+    image:
+      "https://avatars.mds.yandex.net/i?id=23e19b07d4a9a862542efd2b594cba03_l-4907535-images-thumbs&n=13",
   },
   {
     id: 12,
     title: "DJI Mini 3 Pro",
     price: 759,
-    image: "https://m.media-amazon.com/images/I/71z3jpz0OLL.jpg",
+    image:
+      "https://diskontshop.eu/wa-data/public/shop/products/39/89/298939/images/492586/492586.0x460.jpeg",
   },
   {
     id: 13,
@@ -89,13 +93,14 @@ const products = [
     id: 14,
     title: "PS5",
     price: 499,
-    image: "https://m.media-amazon.com/images/I/61UNZTWnJSL.jpg",
+    image: "https://cdn1.ozone.ru/s3/multimedia-1-u/7371992550.jpg",
   },
   {
     id: 15,
     title: "ASUS ROG Zephyrus G14",
     price: 1649,
-    image: "https://m.media-amazon.com/images/I/71MiXG4x7eL.jpg",
+    image:
+      "https://avatars.mds.yandex.net/i?id=0c53ba24f29e68c02f772fde62c25cfac2a0b25a133a5097-12420867-images-thumbs&n=13",
   },
   {
     id: 16,
@@ -113,19 +118,21 @@ const products = [
     id: 18,
     title: "Fitbit Charge 5",
     price: 149,
-    image: "https://m.media-amazon.com/images/I/71G+6vU2T3L.jpg",
+    image:
+      "https://avatars.mds.yandex.net/i?id=661396597edede1e84b7dc734c39e7f3bb29c021-5686193-images-thumbs&n=13",
   },
   {
     id: 19,
     title: "Razer BlackWidow V3",
     price: 139,
-    image: "https://m.media-amazon.com/images/I/81mgi1l1u0L.jpg",
+    image: "https://razer.syntes.io/231048/razer-blackwidow-v3-gallery-03.jpg",
   },
   {
     id: 20,
     title: "BenQ 27” 4K Monitor",
     price: 329,
-    image: "https://m.media-amazon.com/images/I/71BSn0M+jVL.jpg",
+    image:
+      "https://img.2bit.ru/images/items/761/760556-item-3969580-8760416.jpg",
   },
 ];
 
